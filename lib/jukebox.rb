@@ -1,6 +1,6 @@
 
 
-def help
+def help                  # method displays help text 
   
   puts "I accept the following commands:"
   puts "- help : displays this help message"
