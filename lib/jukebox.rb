@@ -24,9 +24,11 @@ def play(songs)
   resp = gets.strip
   
   if resp.is_a? String
-  if songs.include? resp
+    if songs.include? resp
     
     
+    
+    end
     
   end
   
