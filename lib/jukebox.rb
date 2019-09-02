@@ -22,8 +22,6 @@ def play(songs)
   
   resp = gets.strip
   
-  
-  
   if songs.include? resp
     puts "Playing #{resp}"
     
