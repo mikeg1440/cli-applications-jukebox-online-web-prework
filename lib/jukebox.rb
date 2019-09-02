@@ -25,10 +25,14 @@ def play(songs)
   
   if resp.is_a? String
     if songs.include? resp
-      puts ""
+      puts "Playing #{resp}"
     end
     
   elsif resp.is_a? Array
+    
+    if songs[resp]
+      puts "Playing #{songs[resp]}"
+    end
     
   end
   
