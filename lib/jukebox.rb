@@ -39,7 +39,7 @@ def play(songs)
   elsif resp.is_a? Integer        # if response is a digit play that number song
     
     if songs[resp]
-      puts "Playing #{songs[resp-1]}"
+      puts "Playing 2 #{songs[resp-1]}"
     else
       puts "Invalid input, please try again"
     end
