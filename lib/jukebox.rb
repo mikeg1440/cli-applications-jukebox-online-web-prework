@@ -29,7 +29,9 @@ def play(songs)
   
   if resp.is_a? String            # if response is a string then try to find song name in songs
     if songs.include? resp
+      puts "SONG: #{resp}"
       puts "Playing #{resp}"
+      
     else
       puts "Invalid input, please try again"
     end
