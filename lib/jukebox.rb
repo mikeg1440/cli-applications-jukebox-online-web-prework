@@ -27,7 +27,7 @@ def play(songs)
   if songs.include? resp
     puts "Playing #{resp}"
     
-  elsif songs[resp.to_i - 1].is_a? String
+  elsif songs[resp.to_i - 1] >= 0
     # puts "Resp: #{resp.to_i-1}"
     puts "Playing #{songs[resp.to_i - 1]}"
     
