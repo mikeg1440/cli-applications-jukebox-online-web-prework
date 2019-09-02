@@ -23,6 +23,7 @@ def play(songs)
   
   resp = gets.strip
   
+  if resp.is_
   if songs.include? resp
     
     
