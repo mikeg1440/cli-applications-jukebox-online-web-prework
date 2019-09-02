@@ -16,4 +16,4 @@ songs = [
 
 
 #list(songs)
-#run(songs)
+run(songs)
