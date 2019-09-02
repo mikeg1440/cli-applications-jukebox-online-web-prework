@@ -28,7 +28,8 @@ def play(songs)
     puts "Playing #{resp}"
     
   elsif songs[resp.to_i]
-    puts "Playing #{songs[resp.to_i]"
+    puts "Playing #{songs[resp.to_i]}"
+    
   else
   
   
