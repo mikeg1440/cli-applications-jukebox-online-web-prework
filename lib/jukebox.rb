@@ -30,7 +30,7 @@ def play(songs)
       puts "Invalid input, please try again"
     end
     
-  elsif resp.is_a? Array
+  elsif resp.is_a? Integer
     
     if songs[resp]
       puts "Playing #{songs[resp]}"
