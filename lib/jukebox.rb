@@ -58,7 +58,7 @@ def run
     
     if command == "exit"
       exit_jukebox
-      
+      break
     elsif command == "list"
       list(songs)
       
