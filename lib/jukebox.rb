@@ -12,7 +12,7 @@ puts "I accept the following commands:
 end
 
 def list(songs)
-  
+  puts songs.class
   songs.each_with_index {|song, index| puts "${index}. ${song}"}
   
 end
