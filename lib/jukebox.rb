@@ -25,6 +25,7 @@ def play(songs)
   
   if resp.to_i.is_a? Integer
     resp = resp.to_i
+  end
   
   if resp.is_a? String
     if songs.include? resp
