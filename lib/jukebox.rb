@@ -66,6 +66,8 @@ def run
   else command == "help"
     help
     
+  end
+    
     
   
   
