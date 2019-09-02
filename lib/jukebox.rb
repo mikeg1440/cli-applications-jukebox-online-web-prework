@@ -11,4 +11,8 @@ puts "I accept the following commands:
   
 end
 
-help
+def list(songs)
+  
+  songs.each_with_index {|index, songs| puts "${index}. ${song}"
+  
+end
