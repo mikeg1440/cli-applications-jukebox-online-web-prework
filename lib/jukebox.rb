@@ -28,7 +28,7 @@ def play(songs)
     puts "Playing #{resp}"
     
   elsif songs[resp.to_i - 1] 
-    resp = resp.to_i > 0 && resp.to_i <
+    resp = resp.to_i > 0 && resp.to_i < 10 ? resp.to_i : nil
     puts "Playing #{songs[resp.to_i - 1]}"
     
   else
