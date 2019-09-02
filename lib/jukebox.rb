@@ -13,7 +13,7 @@ end
 
 def list(songs)
   puts songs
-  songs.each_with_index {|song, index| puts "${index}. ${song}"}
+  songs.each_with_index {|song, index| puts "#{index}. #{song}"}
   
 end
 
