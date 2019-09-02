@@ -23,6 +23,13 @@ def play(songs)
   
   resp = gets.strip
   
+  
+  if songs.include? resp
+    puts "Playing #{resp}"
+    
+  elsif songs[resp.to_i]
+  
+  
   if resp.to_i.is_a? Integer      # convert response to integer is possible
     resp = resp.to_i
   end
