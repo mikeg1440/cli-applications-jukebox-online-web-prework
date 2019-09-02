@@ -35,6 +35,7 @@ def play(songs)
     if songs[resp]
       puts "Playing #{songs[resp]}"
     else
+      puts resp.class
       puts "Invalid input, please try again"
     end
     
