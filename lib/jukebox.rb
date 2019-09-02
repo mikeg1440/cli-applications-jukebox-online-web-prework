@@ -10,3 +10,5 @@ puts "I accept the following commands:
 
   
 end
+
+help
