@@ -27,8 +27,7 @@ def play(songs)
   if songs.include? resp
     puts "Playing #{resp}"
     
-  elsif songs[resp.to_i - 1] 
-    resp = resp.to_i > 0 && resp.to_i < 10 ? resp.to_i : nil
+  elsif resp.to_i > 0 && resp.to_i < 10
     puts "Playing #{songs[resp.to_i - 1]}"
     
   else
