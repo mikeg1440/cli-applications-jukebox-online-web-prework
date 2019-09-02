@@ -32,6 +32,8 @@ def play(songs)
     
     if songs[resp]
       puts "Playing #{songs[resp]}"
+    else
+      puts ""
     end
     
   end
