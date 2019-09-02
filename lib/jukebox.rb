@@ -23,7 +23,7 @@ def play(songs)
   
   resp = gets.strip
   
-  if resp.to_i.is_a? Integer      # check if the response can be converted to a integer
+  if resp.to_i.is_a? Integer      # convert response to integer is possible
     resp = resp.to_i
   end
   
