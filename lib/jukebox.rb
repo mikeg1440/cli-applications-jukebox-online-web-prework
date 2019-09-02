@@ -23,4 +23,6 @@ def play(songs)
   
   resp = gets.strip
   
+  if resp = songs.find
+  
 end
