@@ -64,7 +64,7 @@ def run
     play(songs)
     
   elsif command == "help"
-    
+    help
   
   
   
