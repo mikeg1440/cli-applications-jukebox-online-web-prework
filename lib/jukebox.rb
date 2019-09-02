@@ -23,7 +23,7 @@ def play(songs)
   
   resp = gets.strip
   
-  if resp.to_i.is_a? Integer
+  if resp.to_i.is_a? Integer      # check if the response can be converted to a integer
     resp = resp.to_i
   end
   
@@ -39,7 +39,6 @@ def play(songs)
     if songs[resp]
       puts "Playing #{songs[resp]}"
     else
-      puts resp.class
       puts "Invalid input, please try again"
     end
     
