@@ -52,4 +52,7 @@ def run
   
   command = gets.strip
   
+  command = command.downcase
+  
+  
 end
