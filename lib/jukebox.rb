@@ -26,6 +26,8 @@ def play(songs)
   if resp.is_a? String
     if songs.include? resp
       puts "Playing #{resp}"
+    else
+      puts "Invalid input, please try again"
     end
     
   elsif resp.is_a? Array
@@ -33,7 +35,7 @@ def play(songs)
     if songs[resp]
       puts "Playing #{songs[resp]}"
     else
-      puts ""
+      puts "Invalid input, please try again"
     end
     
   end
