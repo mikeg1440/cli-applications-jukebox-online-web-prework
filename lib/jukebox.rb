@@ -48,27 +48,29 @@ end
 
 def run
   
-  puts "Please enter a command:"
+  loop do
   
-  command = gets.strip
-  
-  command = command.downcase
-  
-  if command == "exit"
-    exit_jukebox
+    puts "Please enter a command:"
     
-  elsif command == "list"
-    list(songs)
+    command = gets.strip
     
-  elsif command == "play"
-    play(songs)
+    command = command.downcase
     
-  else command == "help"
-    help
+    if command == "exit"
+      exit_jukebox
+      
+    elsif command == "list"
+      list(songs)
+      
+    elsif command == "play"
+      play(songs)
+      
+    else command == "help"
+      help
+      
+    end
     
-  end
-    
-    
+    end    
   
   
   
