@@ -10,7 +10,7 @@ def help                  # method displays help text
 
 end
 
-def list(songs)
+def list(songs)       # lists songs in songs array and numbers them as well
   
   songs.each_with_index {|song, index| puts "#{index+1}. #{song}"}
   
