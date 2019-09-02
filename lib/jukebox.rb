@@ -28,35 +28,36 @@ def play(songs)
     puts "Playing #{resp}"
     
   elsif songs[resp.to_i]
-  
+    puts "Playing #{songs[resp.to_i]"
   else
   
+  
   end
   
   
-  if resp.to_i.is_a? Integer      # convert response to integer is possible
-    resp = resp.to_i
-  end
+  # if resp.to_i.is_a? Integer      # convert response to integer is possible
+  #   resp = resp.to_i
+  # end
   
 
-  if resp.is_a? String            # if response is a string then try to find song name in songs
-    if songs.include? resp
-      puts "SONG: #{resp}"
-      puts "Playing 1 #{resp}"
+  # if resp.is_a? String            # if response is a string then try to find song name in songs
+  #   if songs.include? resp
+  #     puts "SONG: #{resp}"
+  #     puts "Playing 1 #{resp}"
       
-    else
-      puts "Invalid input, please try again"
-    end
+  #   else
+  #     puts "Invalid input, please try again"
+  #   end
     
-  elsif resp.is_a? Integer        # if response is a digit play that number song
+  # elsif resp.is_a? Integer        # if response is a digit play that number song
     
-    if songs[resp]
-      puts "Playing 2 #{songs[resp-1]}"
-    else
-      puts "Invalid input, please try again"
-    end
+  #   if songs[resp]
+  #     puts "Playing 2 #{songs[resp-1]}"
+  #   else
+  #     puts "Invalid input, please try again"
+  #   end
     
-  end
+  # end
   
 end
 
