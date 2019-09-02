@@ -16,7 +16,7 @@ def list(songs)
   
 end
 
-def play(songs)
+def play(songs)       # asks user for a song name or number and plays it if song exists in songs array
   
   puts "Please enter a song name or number:"
   
