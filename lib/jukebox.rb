@@ -54,5 +54,18 @@ def run
   
   command = command.downcase
   
+  if command == "exit"
+    exit_jukebox
+    
+  elsif command == "list"
+    list(songs)
+    
+  elsif command == "play"
+    play(songs)
+    
+  elsif command == "help"
+    
+  
+  
   
 end
