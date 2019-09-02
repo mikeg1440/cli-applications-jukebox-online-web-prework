@@ -29,6 +29,10 @@ def play(songs)
     
   elsif songs[resp.to_i]
   
+  else
+  
+  end
+  
   
   if resp.to_i.is_a? Integer      # convert response to integer is possible
     resp = resp.to_i
