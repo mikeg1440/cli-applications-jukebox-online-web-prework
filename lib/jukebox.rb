@@ -23,6 +23,9 @@ def play(songs)
   
   resp = gets.strip
   
+  if resp.to_i.is_a? Integer
+    resp = resp.to_i
+  
   if resp.is_a? String
     if songs.include? resp
       puts "Playing #{resp}"
