@@ -27,14 +27,14 @@ def play(songs)
     resp = resp.to_i
   end
   
-  if resp.is_a? String
+  if resp.is_a? String            # if response is a string then try to find song name in songs
     if songs.include? resp
       puts "Playing #{resp}"
     else
       puts "Invalid input, please try again"
     end
     
-  elsif resp.is_a? Integer
+  elsif resp.is_a? Integer        # if response is a digit play that number song
     
     if songs[resp]
       puts "Playing #{songs[resp]}"
