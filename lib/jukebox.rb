@@ -27,6 +27,8 @@ def play(songs)
     resp = resp.to_i
   end
   
+  puts "CLASS: #{resp.class}"
+  
   if resp.is_a? String            # if response is a string then try to find song name in songs
     if songs.include? resp
       puts "SONG: #{resp}"
