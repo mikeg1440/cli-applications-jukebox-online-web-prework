@@ -25,10 +25,10 @@ def play(songs)
   
   if resp.is_a? String
     if songs.include? resp
-    
-    
-    
+      puts ""
     end
+    
+  elsif resp.is_a? Array
     
   end
   
